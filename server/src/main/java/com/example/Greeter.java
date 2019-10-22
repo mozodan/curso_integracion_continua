@@ -20,8 +20,7 @@ public class Greeter {
     if(true){
       return String.format("Hello, %s!", someone);
     }
-    else{
-        return String.format("Hello, %s!", someone);
+    else{ return String.format("Hello, %s!", someone);
     }
   }
 }
